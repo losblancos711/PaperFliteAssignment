@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "customFontIcons";
+  src: url("fonts/fontIcons.woff?892o1u") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "customFontIcons" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bin:before {
+  content: "\e900";
+}
+.icon-clock:before {
+  content: "\e901";
+  color: #717274;
+}
+.icon-dotMenu:before {
+  content: "\e902";
+  color: #a9a9a9;
+}
+.icon-eye:before {
+  content: "\e903";
+}
+.icon-filter:before {
+  content: "\e904";
+}
+.icon-guage:before {
+  content: "\e905";
+  color: #717274;
+}
+.icon-inbox:before {
+  content: "\e906";
+  color: #717274;
+}
+.icon-location:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\e908";
+  color: #717274;
+}
+.icon-messages:before {
+  content: "\e909";
+  color: #717274;
+}
+.icon-moneyBag:before {
+  content: "\e90a";
+  color: #717274;
+}
+.icon-plane:before {
+  content: "\e90b";
+  color: #717274;
+}
+.icon-reset:before {
+  content: "\e90c";
+}
+.icon-search .path1:before {
+  content: "\e90d";
+  color: rgb(113, 114, 116);
+}
+.icon-search .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-share:before {
+  content: "\e90f";
+  color: #e51058;
+}
+.icon-stack:before {
+  content: "\e910";
+  color: #717274;
+}
+.icon-user:before {
+  content: "\e911";
+  color: #717274;
+}

@@ -1,0 +1,31 @@
+.loginPage {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr 4fr;
+  grid-template-areas: "sidebar conv convDetail";
+  height: 100%;
+  gap: 0;
+}
+
+.sideBarContainer {
+  grid-area: sidebar;
+}
+
+.conversationsContainer {
+  grid-area: conv;
+  /* background-color: aqua; */
+}
+
+.conversationDetailContainer {
+  grid-area: convDetail;
+}
+
+/*Mobile styles*/
+@media (max-width: 600px) {
+  .loginPage {
+    height: max-content;
+    grid-template-areas:
+      "convDetail convDetail convDetail"
+      "conv conv conv"
+      "sidebar sidebar sidebar";
+  }
+}

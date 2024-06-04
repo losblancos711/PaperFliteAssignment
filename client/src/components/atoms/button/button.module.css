@@ -1,0 +1,14 @@
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn span {
+  font-size: 22px;
+}
+
+.btn:hover span::before {
+  color: aquamarine;
+  transition: 0.25s all ease-in-out;
+}
