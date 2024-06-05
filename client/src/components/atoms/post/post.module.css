@@ -1,0 +1,40 @@
+.post {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.post img {
+  width: 80px;
+  height: 90px;
+  border-radius: 10px;
+  margin-right: 12px;
+}
+
+.post h4 {
+  font-family: "Samsung Sharp Sans Medium";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.64px;
+  text-align: left;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.post h5 {
+  font-family: "Samsung Sharp Sans Regular";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.12px;
+  text-align: left;
+  color: #717274;
+  margin-bottom: 16px;
+}
+
+.post p {
+  font-family: "Samsung Sharp Sans Regular";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.88px;
+  text-align: left;
+  color: #a9a9a9;
+}

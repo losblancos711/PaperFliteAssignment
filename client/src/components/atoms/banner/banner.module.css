@@ -1,0 +1,48 @@
+.banner {
+    background-image: linear-gradient(180.43deg, rgba(250, 250, 250, 0) 0.38%, #FAFAFA 99.62%), url('../../../../public/images/banner.png');
+    height: 148px;
+    background-size: cover;
+}
+
+.bannerContent {
+    padding-left: 32px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bannerContent button {
+    margin-left: 10px;
+}
+
+.bannerContent h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.32px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+.bannerContent p:nth-child(2) {
+    font-family: "Samsung Sharp Sans Medium";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.12px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.bannerContent p:nth-child(3) {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.6px;
+    text-align: left;
+    color: #717274;
+    margin-bottom: 6px;
+}

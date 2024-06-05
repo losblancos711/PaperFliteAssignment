@@ -1,0 +1,23 @@
+.sortUIContainer,
+.sortUIContainer button {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.6px;
+    text-align: left;
+}
+
+.sortUIContainer {
+    font-family: "Samsung Sharp Sans Medium";
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.active {
+    color: #E51058;
+}

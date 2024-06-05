@@ -1,0 +1,14 @@
+.infoTile {
+    display: flex;
+    border: 0.5px solid #DBDBDB;
+    width: 158px;
+    min-height: 76px;
+    border-radius: 8px;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+/* .icon {
+    margin-right: -15px;
+} */

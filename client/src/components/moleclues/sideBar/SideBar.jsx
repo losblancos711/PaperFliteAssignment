@@ -1,8 +1,11 @@
 import React from "react";
-import styles from "./sideBar.module.css";
+
 import { Button } from "../../atoms/button/Button";
-import classNames from "classnames";
 import { Avatar } from "../../atoms/avatar/Avatar";
+
+import classNames from "classnames";
+
+import styles from "./sideBar.module.css";
 
 export const SideBar = () => {
   return (
@@ -32,7 +35,7 @@ export const SideBar = () => {
       </div>
       <div className={styles.sideBarRow2}>
         <Button>
-          <span class="icon-dotMenu"></span>
+          <span className="icon-dotMenu"></span>
         </Button>
         <Avatar name={"Karthik"} imgSrc={"./public/images/userImg.png"} />
       </div>

@@ -1,0 +1,15 @@
+.conversationDetailContainer .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24px;
+    grid-template-columns: 1f 1fr;
+}
+
+.conversationDetailContainer2 {
+    padding-left: 32px;
+    padding-right: 40px;
+}

@@ -1,4 +1,5 @@
 .btn {
+  font-family: "Samsung Sharp Sans Medium";
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -11,4 +12,11 @@
 .btn:hover span::before {
   color: aquamarine;
   transition: 0.25s all ease-in-out;
+}
+
+.iconBtn {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #DBDBDB;
+  border-radius: 10px;
 }

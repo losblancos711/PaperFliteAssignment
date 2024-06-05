@@ -1,7 +1,12 @@
 import React from "react";
-import classNames from "classnames";
-import styles from "./loginPage.module.css";
+
 import { SideBar } from "../../components/moleclues/sideBar/SideBar";
+import { Conversations } from "../../components/moleclues/conversations/Conversations";
+
+import classNames from "classnames";
+
+import styles from "./loginPage.module.css";
+import { ConversationDetail } from "../../components/moleclues/conversationDetail/ConversationDetail";
 
 export const LoginPage = () => {
   return (
@@ -10,10 +15,10 @@ export const LoginPage = () => {
         <SideBar />
       </div>
       <div className={classNames(styles.conversationsContainer)}>
-        Conversations
+        <Conversations />
       </div>
       <div className={classNames(styles.conversationDetailContainer)}>
-        Conversation Details
+        <ConversationDetail />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 .loginPage {
   display: grid;
-  grid-template-columns: 0.5fr 4fr 4fr;
+  grid-template-columns: 0.1fr 1.71fr 4fr;
   grid-template-areas: "sidebar conv convDetail";
   height: 100%;
   gap: 0;
@@ -12,11 +12,19 @@
 
 .conversationsContainer {
   grid-area: conv;
-  /* background-color: aqua; */
+  justify-self: self-start;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  width: 100%;
+  text-align: left;
+  border-right: 1px solid #dbdbdb;
 }
 
 .conversationDetailContainer {
   grid-area: convDetail;
+  width: 100%;
+  text-align: left;
 }
 
 /*Mobile styles*/
@@ -25,7 +33,6 @@
     height: max-content;
     grid-template-areas:
       "convDetail convDetail convDetail"
-      "conv conv conv"
       "sidebar sidebar sidebar";
   }
 }

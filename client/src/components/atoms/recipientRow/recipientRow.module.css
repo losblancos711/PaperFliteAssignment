@@ -1,0 +1,56 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.childRow1,
+.childRow2 {
+    margin-top: 0px;
+}
+
+.childRow1 p {
+    font-family: "Samsung Sharp Sans Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.64px;
+    text-align: left;
+    color: #000;
+    margin-left: 12px;
+    margin-right: 16px;
+}
+
+.childRow1 span {
+    font-family: "Samsung Sharp Sans Regular";
+    font-size: 12px;
+    line-height: 14.88px;
+    text-align: left;
+    color: #000;
+}
+
+.separator {
+    border: 1px solid #E2E2E2;
+    border-left: 0;
+    height: 16px;
+    margin-right: 16px;
+}
+
+.range {
+    font-size: 12px;
+    line-height: 14.88px;
+    text-align: left;
+    color: #717274;
+}
+
+.childRow2 button {
+    padding: 0;
+    margin-left: 18px;
+}
+
+.childRow2 .separator {
+    margin-left: 26px;
+    margin-right: 0;
+}
