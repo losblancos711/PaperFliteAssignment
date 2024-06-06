@@ -24,6 +24,14 @@ p {
 
 .list {
     margin-top: 32px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    max-height: 69vh;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
 }
 
 .container {

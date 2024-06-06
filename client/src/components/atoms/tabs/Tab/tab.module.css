@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    color: #000;
+    transition: 0.2s all ease-in-out;
+    padding: 0;
+}
+
+.activeTab {
+    color: #E51058;
+}
+
+.activeTabBorder {
+    background: #E51058;
+    width: 12px;
+    height: 1px;
+    border-radius: 3px;
+    display: block;
+    margin: 12px auto 0;
+}

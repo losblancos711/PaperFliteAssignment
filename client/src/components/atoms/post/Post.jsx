@@ -4,14 +4,20 @@ import classNames from "classnames";
 
 import styles from "./post.module.css";
 
-export const Post = memo(() => {
+export const Post = memo(({ title, createdAt, viewedBy, imgSrc, active }) => {
+  const hoursAgo = new Date().getHours() - new Date(createdAt).getHours();
+
   return (
-    <div className={classNames(styles.post)}>
-      <img width={100} src={"./public/images/post1.jpg"} />
+    <div className={classNames(styles.post, active ? styles.active : "")}>
+      <img width={100} src={imgSrc} alt="Post" />
       <div>
-        <h4>Meet New Paperflite</h4>
-        <h5>Shared 4 hours ago</h5>
-        <p>Kevin +6 more</p>
+        <h4>{title}</h4>
+        <h5>{`Shared ${hoursAgo} hours ago`}</h5>
+        <p>
+          {viewedBy?.length === 1
+            ? viewedBy[0]
+            : `${viewedBy?.[0]} +${viewedBy?.length - 1} more`}
+        </p>
       </div>
     </div>
   );

@@ -5,18 +5,32 @@
   cursor: pointer;
 }
 
-.btn span {
+.btn span::before {
   font-size: 22px;
 }
 
-.btn:hover span::before {
-  color: aquamarine;
-  transition: 0.25s all ease-in-out;
+button.btn:hover span::before {
+  background: linear-gradient(90deg, #FF284F 0%, #FF439B 15%, #FF45CF 44%, #309BE0 83%, #00A5B9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 .iconBtn {
   width: 34px;
   height: 34px;
   border: 1px solid #DBDBDB;
   border-radius: 10px;
+}
+
+.iconBtn span::before {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iconBtn:hover {
+  border-color: #E51058;
 }

@@ -26,4 +26,9 @@ input:placeholder {
     position: absolute;
     top: 14px;
     right: 14px;
+    font-size: 12px;
+}
+
+.inputIcon span::before {
+    color: #E51058 !important;
 }

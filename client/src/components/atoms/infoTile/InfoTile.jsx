@@ -9,9 +9,7 @@ export const InfoTile = memo(({ title, icon, description }) => {
         <h3>{title}</h3>
         <p style={{ marginTop: "19px" }}>{description}</p>
       </div>
-      <div className={styles.icon}>
-        <span className="icon-messages"></span>
-      </div>
+      <div className={styles.icon}>{icon}</div>
     </div>
   );
 });

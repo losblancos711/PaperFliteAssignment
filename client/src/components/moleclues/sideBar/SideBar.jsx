@@ -24,7 +24,7 @@ export const SideBar = () => {
           <span className="icon-stack"></span>
         </Button>
         <Button>
-          <span className="icon-messages"></span>
+          <span className="icon-conv"></span>
         </Button>
         <Button>
           <span className="icon-guage"></span>

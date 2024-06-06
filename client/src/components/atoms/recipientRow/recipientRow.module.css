@@ -47,10 +47,18 @@
 
 .childRow2 button {
     padding: 0;
-    margin-left: 18px;
+    margin-left: 24px;
 }
 
 .childRow2 .separator {
     margin-left: 26px;
     margin-right: 0;
+}
+
+.childRow2 button span::before {
+    font-size: 15px;
+}
+
+.childRow2 button .inbox::before {
+    color: #E51058;
 }

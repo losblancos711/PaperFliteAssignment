@@ -33,7 +33,6 @@
   max-width: 1366px;
   margin: 0 auto;
   text-align: center;
-  background: #fafafa;
   border-radius: 20px;
   /* height: 100vh; */
 }
@@ -42,6 +41,10 @@ html body,
 p {
   margin: 0;
   height: 100%;
+}
+
+body {
+  background: #fafafa;
 }
 
 h1,

@@ -21,7 +21,7 @@ export const Banner = memo(({ title, subTitle, postingTime }) => {
             <span className="icon-reset"></span>
           </Button>
           <Button hasBorder>
-            <span className="icon-bin"></span>
+            <span className="icon-trash"></span>
           </Button>
         </div>
       </div>
