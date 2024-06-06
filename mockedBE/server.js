@@ -16,18 +16,6 @@ app.get("/api/v1/conversations", (req, res) => {
   }
 });
 
-app.get("/api/v1/conversations/:id", (req, res) => {
-  const conversationId = req.params.id;
-  const conversation = conversations?.find(
-    (conversation) => conversation?.id == conversationId
-  );
-  if (conversation) {
-    res.send(conversation);
-  } else {
-    res.send(conversation);
-  }
-});
-
 app.listen(port, () => {
   console.log(`Mock server is running on port ${port}`);
 });

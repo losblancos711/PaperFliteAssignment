@@ -1,3 +1,436 @@
 [
-  {}
+  {
+    "id": 1,
+    "title": "Meet New Paperflite",
+    "postImageURL": "/public/images/post1.jpg",
+    "createdAt": "2024-06-06T09:32:08.397Z",
+    "lastActivity": "2024-06-06T06:32:08.397Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Ajay", "Arun", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 2,
+      "recipients": 4,
+      "sharedAt": "2024-05-06T09:32:08.397Z",
+      "platform": "QuickSend"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 50,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 100,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 367,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Pamela Jack",
+        "imgSrc": "/public/images/recipient4.png",
+        "lastActive": "2024-06-05T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Pamela Jack 2",
+        "imgSrc": "/public/images/recipient5.png",
+        "lastActive": "2024-06-02T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Collection “seeeek”",
+    "postImageURL": "/public/images/post2.png",
+    "createdAt": "2024-06-06T09:32:08.397Z",
+    "lastActivity": "2024-06-06T06:32:08.397Z",
+    "viewedBy": ["Rhonald"],
+    "sharingDetails": {
+      "noOfSharedAssets": 2,
+      "recipients": 4,
+      "sharedAt": "2024-06-06T09:32:08.397Z",
+      "platform": "QuickSend"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 90,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 100,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 989,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T09:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T09:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Indira Gandhi International Aighjhjhjhj",
+    "postImageURL": "/public/images/post1.jpg",
+    "createdAt": "2024-06-06T16:14:32.330Z",
+    "lastActivity": "2024-06-06T16:14:32.330Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 5,
+      "recipients": 2,
+      "sharedAt": "2024-06-06T16:14:32.330Z",
+      "platform": "gmail"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 40,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 85,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 100,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Pamela Jack",
+        "imgSrc": "/public/images/recipient4.png",
+        "lastActive": "2024-06-05T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Pamela Jack 2",
+        "imgSrc": "/public/images/recipient5.png",
+        "lastActive": "2024-06-02T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Paperflite Originals",
+    "postImageURL": "/public/images/post2.png",
+    "createdAt": "2024-06-06T10:32:08.397Z",
+    "lastActivity": "2024-06-06T16:14:32.330Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 5,
+      "recipients": 2,
+      "sharedAt": "2024-05-06T09:32:08.397Z",
+      "platform": "gmail"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 40,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 85,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 100,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Paperflite Originals",
+    "postImageURL": "/public/images/post1.jpg",
+    "createdAt": "2024-06-06T16:14:32.330Z",
+    "lastActivity": "2024-06-06T06:32:08.397Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 5,
+      "recipients": 2,
+      "sharedAt": "2024-05-06T09:32:08.397Z",
+      "platform": "gmail"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 40,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 85,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 100,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Paperflite Originals",
+    "postImageURL": "/public/images/post2.png",
+    "createdAt": "2024-06-06T16:14:32.330Z",
+    "lastActivity": "2024-06-06T06:32:08.397Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 5,
+      "recipients": 2,
+      "sharedAt": "2024-05-06T09:32:08.397Z",
+      "platform": "gmail"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 40,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 85,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 100,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T16:14:32.330Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Paperflite Originals",
+    "postImageURL": "/public/images/post1.jpg",
+    "createdAt": "2024-06-06T16:14:32.330Z",
+    "lastActivity": "2024-06-06T06:32:08.397Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 5,
+      "recipients": 2,
+      "sharedAt": "2024-05-06T09:32:08.397Z",
+      "platform": "gmail"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 40,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 85,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 100,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T16:14:32.330Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Paperflite Originals",
+    "postImageURL": "/public/images/post2.png",
+    "createdAt": "2024-06-06T16:14:32.330Z",
+    "lastActivity": "2024-06-06T06:32:08.397Z",
+    "viewedBy": ["Kevin", "Rhonald", "Parth", "Vinod"],
+    "sharingDetails": {
+      "noOfSharedAssets": 5,
+      "recipients": 2,
+      "sharedAt": "2024-05-06T09:32:08.397Z",
+      "platform": "gmail"
+    },
+    "postInsights": {
+      "emailOpenRate": {
+        "rate": 40,
+        "unit": "percentage",
+        "desc": "email open rate"
+      },
+      "contentClickRate": {
+        "rate": 85,
+        "unit": "percentage",
+        "desc": "content click rate"
+      },
+      "totalTimeSpent": { "time": "22:53", "desc": "total time spent" },
+      "dealValue": {
+        "rate": 100,
+        "currency": "USD",
+        "desc": "deal value"
+      }
+    },
+    "recipients": [
+      {
+        "name": "James Clark",
+        "imgSrc": "/public/images/recipient1.png",
+        "lastActive": "2024-06-06T16:14:32.330Z",
+        "range": 85
+      },
+      {
+        "name": "Elizabeth Carol",
+        "imgSrc": "/public/images/recipient2.png",
+        "lastActive": "2024-02-06T06:32:08.397Z",
+        "range": 85
+      },
+      {
+        "name": "Michael",
+        "imgSrc": "/public/images/recipient3.png",
+        "lastActive": "2024-03-06T06:32:08.397Z",
+        "range": 85
+      }
+    ]
+  }
 ]
