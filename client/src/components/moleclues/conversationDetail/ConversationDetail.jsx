@@ -7,10 +7,11 @@ import { useSelector } from "react-redux";
 
 import classNames from "classnames";
 
-import styles from "./conversationDetail.module.css";
 import { RecipientRow } from "../../atoms/recipientRow/RecipientRow";
 import { Tab } from "../../atoms/tabs/Tab/Tab";
 import { TabBody } from "../../atoms/tabs/TabBody/TabBody";
+
+import styles from "./conversationDetail.module.css";
 
 const ConversationDetail = () => {
   const { currentPost } = useSelector((slice) => slice.conversations);

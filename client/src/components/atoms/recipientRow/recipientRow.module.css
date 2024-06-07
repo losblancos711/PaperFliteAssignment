@@ -63,11 +63,37 @@
     color: #E51058;
 }
 
-/*Mobile styles*/
-@media (max-width: 600px) {
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
 
     .lastSeen,
     .separator {
+        font-size: 8px;
+    }
+
+    .childRow1 p {
+        font-size: 10px;
+    }
+
+    .childRow2 button {
+        margin-left: 12px;
+    }
+
+    .childRow2 .separator {
+        margin-left: 16px;
+    }
+}
+
+
+/*Mobile & Tab styles*/
+@media (max-width: 1024px) {
+
+    .lastSeen,
+    .separator {
+        display: none;
+    }
+
+    .childRow2 button.hideMeOnsm {
         display: none;
     }
 
@@ -77,7 +103,11 @@
         line-height: 15.12px;
     }
 
-    .childRow2 button.hideMeOnsm {
-        display: none;
+}
+
+/*Foldable mobile styles*/
+@media (max-width: 350px) {
+    .childRow1 p {
+        font-size: 10px;
     }
 }

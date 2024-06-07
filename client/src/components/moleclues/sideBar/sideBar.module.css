@@ -28,9 +28,32 @@
   margin-bottom: 40px;
 }
 
-/*Mobile styles*/
-@media (max-width: 600px) {
-  .sideBar {
-    display: none;
+.mobileSideBar {
+  display: none;
+}
+
+/*Mobile & Tab styles*/
+@media (max-width: 1024px) {
+  .mobileSideBar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 82px;
+    border-top: 1px solid #dbdbdb;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background: #fafafa;
+    align-items: flex-start;
+  }
+
+  .mobileSideBar button {
+    margin-top: 20px;
+  }
+
+  .mobileSideBar button span::before {
+    font-size: 26px;
   }
 }

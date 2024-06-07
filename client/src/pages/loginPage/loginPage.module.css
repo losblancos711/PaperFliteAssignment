@@ -27,8 +27,8 @@
   text-align: left;
 }
 
-/*Mobile styles*/
-@media (max-width: 600px) {
+/*Mobile & Tab styles*/
+@media (max-width: 1024px) {
   .loginPage {
     height: max-content;
     grid-template-columns: auto;
@@ -38,6 +38,30 @@
   }
 
   .conversationsContainer {
+    display: none;
+  }
+
+  .sideBarContainer {
+    display: none;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .loginPage {
+    height: max-content;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "convDetail convDetail convDetail"
+      "sidebar sidebar sidebar";
+  }
+
+  .conversationsContainer {
+    display: none;
+  }
+
+  .sideBarContainer {
     display: none;
   }
 }
