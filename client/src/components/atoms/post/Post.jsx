@@ -7,7 +7,9 @@ import classNames from "classnames";
 import styles from "./post.module.css";
 
 export const Post = memo(({ title, createdAt, viewedBy, imgSrc, active }) => {
-  const hoursAgo = new Date().getHours() - new Date(createdAt).getHours();
+  const hoursAgo = Math.abs(
+    new Date().getHours() - new Date(createdAt).getHours()
+  );
 
   return (
     <div className={classNames(styles.post, active ? styles.active : "")}>

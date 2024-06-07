@@ -14,9 +14,10 @@ import { TabBody } from "../../atoms/tabs/TabBody/TabBody";
 
 const ConversationDetail = () => {
   const { currentPost } = useSelector((slice) => slice.conversations);
-  const monthsAgo =
+  const monthsAgo = Math.abs(
     new Date().getHours() -
-    new Date(currentPost?.sharingDetails?.sharedAt).getHours();
+      new Date(currentPost?.sharingDetails?.sharedAt).getHours()
+  );
 
   return (
     <div className={classNames(styles.conversationDetailContainer)}>
