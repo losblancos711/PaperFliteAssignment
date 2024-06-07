@@ -4,7 +4,7 @@ import { Input } from "../input/Input";
 import { Button } from "../button/Button";
 
 import { useDispatch, useSelector } from "react-redux";
-import { setSortBy } from "../../../store/filterSlice";
+import { setSortBy } from "../../../store/filterSlice/filterSlice";
 
 import classNames from "classnames";
 

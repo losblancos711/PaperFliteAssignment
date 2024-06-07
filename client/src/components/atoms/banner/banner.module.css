@@ -46,3 +46,20 @@
     color: #717274;
     margin-bottom: 6px;
 }
+
+/*Mobile styles*/
+@media (max-width: 600px) {
+    .banner {
+        background-image: linear-gradient(180.43deg, rgba(250, 250, 250, 0) 0.38%, #FAFAFA 99.62%), url('../../../../public/images/banner_mobile.png');
+        height: 161px;
+    }
+
+    .bannerIconRow {
+        display: none;
+    }
+
+    .bannerContent {
+        padding-left: 16px;
+        padding-right: 32px;
+    }
+}

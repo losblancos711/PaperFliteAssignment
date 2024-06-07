@@ -29,3 +29,17 @@ button {
     display: block;
     margin: 12px auto 0;
 }
+
+/*Mobile styles*/
+@media (max-width: 600px) {
+    button {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17.64px;
+        text-align: left;
+    }
+
+    .activeTabBorder {
+        margin: 10px auto 0;
+    }
+}

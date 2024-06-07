@@ -7,8 +7,17 @@
     justify-items: center;
     justify-content: space-between;
     padding: 12px;
+    text-align: left;
 }
 
-/* .icon {
-    margin-right: -15px;
-} */
+.infoTile h3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.64px;
+    font-family: "Samsung Sharp Sans Medium";
+}
+
+.infoTile p {
+    font-size: 10px;
+    line-height: 14px;
+}

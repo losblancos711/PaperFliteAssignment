@@ -1,12 +1,17 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 import { SideBar } from "../../components/moleclues/sideBar/SideBar";
 import { Conversations } from "../../components/moleclues/conversations/Conversations";
+const ConversationDetail = React.lazy(() =>
+  import("../../components/moleclues/conversationDetail/ConversationDetail")
+);
+
+import ErrorBoundary from "../../components/utils/errorBoundary/ErrorBoundary";
 
 import classNames from "classnames";
 
 import styles from "./loginPage.module.css";
-import { ConversationDetail } from "../../components/moleclues/conversationDetail/ConversationDetail";
+import { Loader } from "../../components/atoms/loader/Loader";
 
 export const LoginPage = () => {
   return (
@@ -15,10 +20,16 @@ export const LoginPage = () => {
         <SideBar />
       </div>
       <div className={classNames(styles.conversationsContainer)}>
-        <Conversations />
+        <ErrorBoundary>
+          <Conversations />
+        </ErrorBoundary>
       </div>
       <div className={classNames(styles.conversationDetailContainer)}>
-        <ConversationDetail />
+        <ErrorBoundary>
+          <Suspense fallback={<Loader />}>
+            <ConversationDetail />
+          </Suspense>
+        </ErrorBoundary>
       </div>
     </div>
   );

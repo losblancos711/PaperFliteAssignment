@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 import { Post } from "../../atoms/post/Post";
 import { Filter } from "../../atoms/filter/Filter";
@@ -12,6 +12,7 @@ import { setCurrentPost } from "../../../store/conversationSlice/conversationSli
 import classNames from "classnames";
 
 import styles from "./conversations.module.css";
+import { Loader } from "../../atoms/loader/Loader";
 
 export const Conversations = () => {
   const {
@@ -21,7 +22,7 @@ export const Conversations = () => {
   } = useFetch(`${import.meta.env.VITE_APP_BASE_URL}/api/v1/conversations`);
 
   if (error) {
-    return <p>Error: {error.message}</p>;
+    throw new Error(error);
   }
 
   const { currentPost } = useSelector((slice) => slice.conversations);
@@ -36,7 +37,7 @@ export const Conversations = () => {
   };
 
   return loading ? (
-    <p>Loading...</p>
+    <Loader />
   ) : (
     <div className={classNames(styles.container)}>
       <div className={classNames(styles.flex)}>

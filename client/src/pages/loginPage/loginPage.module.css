@@ -31,8 +31,13 @@
 @media (max-width: 600px) {
   .loginPage {
     height: max-content;
+    grid-template-columns: auto;
     grid-template-areas:
       "convDetail convDetail convDetail"
       "sidebar sidebar sidebar";
+  }
+
+  .conversationsContainer {
+    display: none;
   }
 }

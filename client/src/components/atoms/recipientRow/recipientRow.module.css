@@ -62,3 +62,22 @@
 .childRow2 button .inbox::before {
     color: #E51058;
 }
+
+/*Mobile styles*/
+@media (max-width: 600px) {
+
+    .lastSeen,
+    .separator {
+        display: none;
+    }
+
+    .childRow1 p {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15.12px;
+    }
+
+    .childRow2 button.hideMeOnsm {
+        display: none;
+    }
+}

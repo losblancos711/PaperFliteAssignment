@@ -1,5 +1,7 @@
 import React, { memo } from "react";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import classNames from "classnames";
 
 import styles from "./post.module.css";
@@ -9,7 +11,7 @@ export const Post = memo(({ title, createdAt, viewedBy, imgSrc, active }) => {
 
   return (
     <div className={classNames(styles.post, active ? styles.active : "")}>
-      <img width={100} src={imgSrc} alt="Post" />
+      <LazyLoadImage width={100} src={imgSrc} alt="Post" />
       <div>
         <h4>{title}</h4>
         <h5>{`Shared ${hoursAgo} hours ago`}</h5>

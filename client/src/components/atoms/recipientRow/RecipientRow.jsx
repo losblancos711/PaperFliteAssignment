@@ -15,7 +15,9 @@ export const RecipientRow = ({ name, imgSrc, lastSeen, range }) => {
         <Avatar variant={"boxy"} name={name} imgSrc={imgSrc} />
         <p>{name}</p>
         <span className={styles.separator}></span>
-        <span>{`last viewed ${formatDate(new Date(lastSeen))}`}</span>
+        <span className={styles.lastSeen}>{`last viewed ${formatDate(
+          new Date(lastSeen)
+        )}`}</span>
       </div>
       <div className={classNames(styles.row, styles.childRow2)}>
         <span className={styles.range}>~{range}m</span>
@@ -29,7 +31,7 @@ export const RecipientRow = ({ name, imgSrc, lastSeen, range }) => {
           <span className="icon-share"></span>
         </Button>
         <span className={styles.separator}></span>
-        <Button hasBorder>
+        <Button className={classNames(styles.hideMeOnsm)} hasBorder>
           <span className="icon-location"></span>
         </Button>
       </div>

@@ -12,7 +12,7 @@ import { RecipientRow } from "../../atoms/recipientRow/RecipientRow";
 import { Tab } from "../../atoms/tabs/Tab/Tab";
 import { TabBody } from "../../atoms/tabs/TabBody/TabBody";
 
-export const ConversationDetail = () => {
+const ConversationDetail = () => {
   const { currentPost } = useSelector((slice) => slice.conversations);
   const monthsAgo =
     new Date().getHours() -
@@ -88,3 +88,5 @@ export const ConversationDetail = () => {
     </div>
   );
 };
+
+export default ConversationDetail;

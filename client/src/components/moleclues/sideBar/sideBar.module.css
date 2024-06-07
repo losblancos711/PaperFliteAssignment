@@ -30,7 +30,7 @@
 
 /*Mobile styles*/
 @media (max-width: 600px) {
-  .sideBarRow2 {
+  .sideBar {
     display: none;
   }
 }

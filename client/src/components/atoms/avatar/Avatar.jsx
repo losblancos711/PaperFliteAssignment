@@ -1,5 +1,7 @@
 import React, { memo } from "react";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import classNames from "classnames";
 
 import styles from "./avatar.module.css";
@@ -12,7 +14,13 @@ export const Avatar = memo(({ name, imgSrc, variant }) => {
         variant == "boxy" ? styles.variantBoxy : ""
       )}
     >
-      {imgSrc ? <img src={imgSrc} /> : name ? name?.slice(0, 2) : "🤨"}
+      {imgSrc ? (
+        <LazyLoadImage src={imgSrc} />
+      ) : name ? (
+        name?.slice(0, 2)
+      ) : (
+        "🤨"
+      )}
     </div>
   );
 });
